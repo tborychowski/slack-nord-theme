@@ -8,12 +8,13 @@ Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://g
 
 
 ## Installation
-1. Close slack
-2. Open this file in editor:
+1. First apply the official theme to the sidebar: https://github.com/arcticicestudio/nord-slack
+2. Close slack
+3. Open this file in editor:
     ```sh
     /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
     ```
-3. Append this code:
+4. Append this code:
     ```js
     document.addEventListener('DOMContentLoaded', function() {
      $.ajax({
@@ -24,7 +25,7 @@ Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://g
      });
     });    
     ```
-4. Open slack and enjoy the nord darkness!
+5. Open slack and enjoy the nord darkness!
 
 
 

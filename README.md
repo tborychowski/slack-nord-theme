@@ -2,7 +2,7 @@
 Going full nord
 
 
-Inspired by the amazing slack night-mode: https://github.com/laCour/slack-night-mode this paints the whole slack window with the nord colours:
+Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://github.com/laCour/slack-night-mode this paints the whole slack window with the nord colours:
 
 [here be screen]
 
@@ -17,7 +17,7 @@ Inspired by the amazing slack night-mode: https://github.com/laCour/slack-night-
     ```js
     document.addEventListener('DOMContentLoaded', function() {
      $.ajax({
-       url: '[here be css url]',
+       url: 'https://raw.githubusercontent.com/tborychowski/slack-nord-theme/master/slack-nord.css',
        success: function(css) {
          $("<style></style>").appendTo('head').html(css);
        }

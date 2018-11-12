@@ -9,9 +9,9 @@ Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://g
 
 ## Installation
 1. Close slack
-2. Open this file `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
+2. Open this file in editor:
     ```sh
-    code /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
+    /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
     ```
 3. Append this code:
     ```js

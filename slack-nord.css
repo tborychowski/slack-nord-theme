@@ -29,12 +29,8 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 .c-scrollbar--monkey .c-scrollbar__bar { background: #3B4252; box-shadow: 0 3px 0 #2E3440, 0 -3px 0 #2E3440; }
 .client_channels_list_container { background-color: #2E3440; border-right-color: #2E3440; }
 #col_channels { color: #e6e6e6; }
-/* #quick_switcher_btn { background: #2E3440; border-top: 2px solid #2E3440; }
-#quick_switcher_btn > i { color: #949494; }
-#quick_switcher_btn:active, #quick_switcher_btn:hover { background: #2E3440; border-color: #2E3440; }
-#quick_switcher_btn:active > i, #quick_switcher_btn:hover > i { color: #949494; }
-#quick_switcher_btn:active #quick_switcher_label, #quick_switcher_btn:hover #quick_switcher_label { color: #949494; }
-#quick_switcher_label { color: #949494; } */
+#client_header { margin-left: 1px; }
+.client_main_container { box-shadow: inset 1px 0 0 0 #434C5E; }
 .loading #loading-zone { background: #2E3440; }
 #loading_welcome { background-image: none; }
 #loading_message p { color: #e6e6e6; }
@@ -382,7 +378,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .c-search__input_and_close { border-bottom-color: #000; }
 .c-search__input_box__clear, .c-search__input_box__icon, .c-search__section_header, .c-search__input_and_close__close { color: #e6e6e6; }
 #msgs_overlay_div { background: #2E3440; }
-#col_messages { box-shadow: inset 1px 0 0 0 #434C5E; }
+#col_messages { box-shadow: none; }
 .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover, .mention_yellow_bg { color: #949494 !important; }
 .c-message:hover .c-message__broadcast_preamble_outer, .c-message:hover .c-message__broadcast_preamble { color: #949494; }
 .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble_outer, .c-message--hover .c-message__broadcast_preamble_outer .c-message--focus .c-message__broadcast_preamble, .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble_outer, .c-message--hover .c-message__broadcast_preamble .c-message--focus .c-message__broadcast_preamble { color: #949494; }
@@ -825,7 +821,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 .msg_right_link { color: #949494; }
 .message_location_label { color: #949494; }
 .p-flexpane_header { background: #2E3440; border-color: #3B4252; color: #e6e6e6; }
-#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #2E3440; }
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #2E3440; margin-left: 1px; }
 #details_tab .heading { background: #151515; }
 #details_tab .heading a.close_flexpane { color: #949494; }
 #details_tab .heading a.close_flexpane:hover { color: #c7c7c7; }

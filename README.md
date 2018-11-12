@@ -4,7 +4,7 @@ Going full nord
 
 Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://github.com/laCour/slack-night-mode this paints the whole slack window with the nord colours:
 
-[here be screen]
+![Screen](screen.png)
 
 
 ## Installation

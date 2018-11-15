@@ -2006,8 +2006,8 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-dialog__title, .c-dialog__footer_text { color: #e6e6e6; }
 .c-dialog__footer .p-file_upload_dialog__footer_share_inputs { color: inherit;}
 .c-menu_item__button--danger, .c-menu_item__button--danger .c-menu_item__description, .c-menu_item__button--danger:link, .c-menu_item__button--danger:link .c-menu_item__description, .c-menu_item__button--danger:visited, .c-menu_item__button--danger:visited .c-menu_item__description { color: #B3666C; }
-@keyframes messagePaneDragOverlayOverlayTransition {0% {background: #4E566800; opacity: 0} to {background: #4E5668f0; opacity: 1}}
-.p-message_pane_drag_overlay { background: 4E5668f0; }
+@keyframes messagePaneDragOverlayOverlayTransition2 {0% {background: #4E566800; opacity: 0} to {background: #4E5668f0; opacity: 1}}
+.p-message_pane_drag_overlay { background: 4E5668f0; animation: messagePaneDragOverlayOverlayTransition2 .12s; }
 .p-message_pane .c-scrollbar__track { background: #2E3440; }
 .c-message_list .c-scrollbar__bar { background: rgba(216,222,233,0.45); }
 .c-filter_input { background-color: #3C4251; }

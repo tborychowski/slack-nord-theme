@@ -170,7 +170,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 
 .p-message_input_file_button,
-#primary_file_button { background: padding-box #3B4252; border-color: #424242; color: #949494; }
+#primary_file_button { background: padding-box #3B4252 !important; border-color: #424242; color: #949494; }
 
 .p-message_input_file_button.active,
 .p-message_input_file_button.focus-ring,
@@ -179,7 +179,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 #primary_file_button.active,
 #primary_file_button.focus-ring,
 #primary_file_button:focus,
-#primary_file_button:hover { background: #4E5668; border-color: #86A1BE; color: #e6e6e6; }
+#primary_file_button:hover { background: #4E5668 !important; border-color: #86A1BE; color: #e6e6e6; }
 
 #footer, #footer.footer_msg_input { background: #2E3440; box-shadow: inset 1px 0 0 0 #434C5E; }
 #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #2E3440 !important; border-color: #2E3440 !important; }

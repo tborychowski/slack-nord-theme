@@ -128,23 +128,25 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 #message_edit_form.focus #primary_file_button:not(:hover) { border-color: #2E3440; }
 #message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #2E3440 !important; }
 #message_edit_form.offline #primary_file_button { border-color: #424242; color: #949494; }
-#msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #2E3440; }
-#msg_form #msg_input { background: padding-box #3B4252; border-color: #454C5C; border-left: 0; color: #e6e6e6; }
-#msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
+
+.p-message_input_field.focus, #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #2E3440; }
+.p-message_input_field, #msg_form #msg_input { background: padding-box #3B4252; border-color: #454C5C; border-left: 0; color: #e6e6e6; }
+.p-message_input_field.focus ~ .msg_mentions_button:not(.hover), #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
 #msg_form .msg_mentions_button { color: #949494; }
 #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
-#msg_input { background: #3B4252; border-color: #424242; color: #e6e6e6; }
-#msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
-#msg_input::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
-#msg_input::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
-#msg_input[data-placeholder]:empty::before { color: #e6e6e6 !important; }
-#msg_input:focus, #msg_input.focus { border-color: #86A1BE !important; }
+.p-message_input_field, #msg_input { background: #3B4252; border-color: #424242; color: #e6e6e6; }
+.p-message_input_field::placeholder, #msg_input::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
+.p-message_input_field[data-placeholder]:empty::before, #msg_input[data-placeholder]:empty::before { color: #e6e6e6 !important; }
+.p-message_input_field:focus, .p-message_input_field.focus, #msg_input:focus, #msg_input.focus { border-color: #86A1BE !important; }
+
 #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #86A1BE; }
 #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #444C5D; }
 #msg_input + #primary_file_button.focus-ring:not(:hover):not(.active) { border-color: #424242; }
 #msg_input.offline:not(.pretend-to-be-online) { background-color: #2E3440 !important; color: #949494; }
 #msg_input.disabled, #msg_input.ql-disabled { background-color: #2E3440; border-color: #2E3440; color: #949494; }
 #msg_input_message { background-color: #2E3440; color: #e6e6e6; }
+
+
 #primary_file_button { background: padding-box #3B4252; border-color: #424242; color: #949494; }
 #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #4E5668; border-color: #86A1BE; color: #e6e6e6; }
 #footer, #footer.footer_msg_input { background: #2E3440; box-shadow: inset 1px 0 0 0 #434C5E; }
@@ -822,6 +824,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 .msg_right_link { color: #949494; }
 .message_location_label { color: #949494; }
 .p-flexpane_header { background: #2E3440; border-color: #3B4252; color: #e6e6e6; }
+.p-flexpane_header .c-icon_button--light { color: #e6e6e6 !important; }
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before { background: #2E3440; margin-left: 1px; }
 #details_tab .heading { background: none; }
 #details_tab .heading a.close_flexpane { color: #949494; }
@@ -2011,3 +2014,4 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .p-message_pane .c-scrollbar__track { background: #2E3440; }
 .c-message_list .c-scrollbar__bar { background: rgba(216,222,233,0.45); }
 .c-filter_input { background-color: #3C4251; }
+.p-threads_flexpane__header_channel_name { color: #616061; }

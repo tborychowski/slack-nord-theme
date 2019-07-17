@@ -2048,3 +2048,10 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-filter_input { background-color: #3C4251; }
 .c-menu_item__header,
 .p-threads_flexpane__header_channel_name { color: #616061; }
+
+.p-threads_view { background: #2F343F; }
+.p-threads_view__default_background { background: #3C4250;  }
+.p-threads_view_header__permalink { color: #fff !important; }
+.c-message_kit__file__meta { color: #616061; }
+.p_threads_view_load_newer_button,
+.p_threads_view_load_older_button { background: none; }

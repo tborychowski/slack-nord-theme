@@ -7,7 +7,19 @@ Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://g
 ![Screen](screen.png)
 
 
-## Installation
+## Installation for Slack >= 4.0
+Just run (only once!):
+```sh
+./install.sh
+```
+
+To revert:
+```sh
+./install.sh --revert
+```
+
+
+## Installation for Slack < 4.0
 1. First apply the official theme to the sidebar: https://github.com/arcticicestudio/nord-slack
 2. Close slack
 3. Open this file in editor:
@@ -23,7 +35,7 @@ Inspired by (and mostly "borrowed" from) the amazing slack night-mode: https://g
          $("<style></style>").appendTo('head').html(css);
        }
      });
-    });    
+    });
     ```
 5. Open slack and enjoy the nord darkness!
 
